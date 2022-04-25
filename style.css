@@ -1,0 +1,90 @@
+:root {
+  --white: #fff;
+  --black: #444;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 70%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #444;
+  background-image: linear-gradient(to right top,  #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  height: 100vh;
+  padding: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div {
+  width: 40rem;
+  border: 1px solid var(--grey);
+  border-radius: 2px;
+  padding: 3rem;
+  background-color: #CAF0F8;
+  color: rgbrgb(43, 42, 42);
+  text-align: center;
+  border-radius: 19px;
+}
+
+.counter-div > * {
+  margin-bottom: 2rem;
+}
+
+.count {
+  font-size: 5rem;
+}
+
+.buttons button {
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 6px
+}
+
+button.subtract {
+  background: #f12929;
+}
+
+button.reset {
+  background: var(--white);
+}
+
+button.add {
+  background: #20e91d;
+}
